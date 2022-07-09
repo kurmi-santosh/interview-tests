@@ -1,4 +1,3 @@
-import { reverseString } from "./stringManipulations/reverseString"; 
-import { mergeSort } from "./arrayManipiulations/mergeSort";
+import { quickSort } from "./arrayManipiulations/quickSort";
 
-console.log(mergeSort([2,3,1,6,7,5,4,8]));
+console.log(quickSort([2,3,1,6,7,5,4,8]));
