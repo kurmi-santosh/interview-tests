@@ -1,3 +1,3 @@
-import { binarySearch } from "./arrayManipiulations/binarySearch";
+import { binaryOutput } from "./aptitude/binaryOutput";
 
-console.log(binarySearch([2,3,1,6,7,5,4,8],5));
+console.log(binaryOutput(141));
