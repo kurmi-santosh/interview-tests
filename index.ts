@@ -1,12 +1,5 @@
-import flatternNestedArray from "./flatternNestedArray";
+import { getProductSum } from "./arrayManipiulations/productSum";
 
-console.log(
-  flatternNestedArray([
-    2,
-    [3, 5, 6, [7, 8, 3], 6],
-    5,
-    "San",
-    "Naidu",
-    ["Neelu", [15, 8]],
-  ])
-);
+const arr = [5, 5, [6, [-13, 8], 4]];
+
+console.log(getProductSum(arr));
