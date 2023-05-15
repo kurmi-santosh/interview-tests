@@ -5,9 +5,8 @@ export const secondSmallest = (input: number[]) => {
     if (input[i] < firstSmallest) {
       secondSmallest = firstSmallest;
       firstSmallest = input[i];
-    }
-    else if(input[i] < secondSmallest){
-        secondSmallest = input[i];
+    } else if (input[i] < secondSmallest) {
+      secondSmallest = input[i];
     }
   }
   return secondSmallest;
