@@ -1,7 +1,4 @@
-import { mergeSort } from "./mergeSort";
-
 export const binarySearch = (input: number[], target: number) => {
-  let sortedArray = mergeSort(input);
   let start = 0;
   let end = input.length - 1;
   while (start <= end) {
@@ -16,5 +13,3 @@ export const binarySearch = (input: number[], target: number) => {
   }
   return -1;
 };
-
-
